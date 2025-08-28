@@ -1,0 +1,68 @@
+# === Node / Next.js ===
+node_modules/
+.next/
+out/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+
+# === Environment Files ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Python / FastAPI ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+*.pot
+instance/
+.env.py
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+site-packages/
+
+# === Pytest / Cache ===
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+# === IDE & OS Specific ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# === Generated Data / Models / Temp ===
+data/
+temp/
+*.tmp
+logs/
+__models__/
+
+# === Docker ===
+docker-compose.override.yml
+docker-data/
+
+# === Misc ===
+*.lock
